@@ -278,3 +278,20 @@ _Pvt_Extensions
 
 # VS2015 db files
 *.VC.db
+
+!pre_compiled_libs/*
+
+# localbuilds
+_ONLINE
+_LOCAL_RELEASES
+.idea
+Debug*
+Release*
+*.exe
+
+# installer
+installer/nhmpacker/
+installer/*_release_files/
+installer/*.7z
+installer/*.zip
+installer/*.exe
